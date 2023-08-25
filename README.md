@@ -18,14 +18,14 @@ Un servidor SMTP en localhost para enviar correos.
 Clave de API de GoPhish.
 
 ## Uso
-Configura las direcciones de correo electrónico me (remitente) y you (destinatario).
-Ingresa tu clave de API de GoPhish en la variable api_key.
-Define el ID de la campaña de GoPhish que deseas monitorear en campaign_id.
-me = "EMAIL SENDER"
-you = "EMAIL QUE RECIBE"
-api_key = 'API KEY DE GOPHISH'
-campaign_id = 59
-Ejecuta el script. Esto monitoreará continuamente la campaña especificada y enviará correos electrónicos cuando detecte datos enviados.
+- Configura las direcciones de correo electrónico me (remitente) y you (destinatario).
+- Ingresa tu clave de API de GoPhish en la variable api_key.
+- Define el ID de la campaña de GoPhish que deseas monitorear en campaign_id.
+- me = "EMAIL SENDER"
+- you = "EMAIL QUE RECIBE"
+- api_key = 'API KEY DE GOPHISH'
+- campaign_id = 59
+- Ejecuta el script. Esto monitoreará continuamente la campaña especificada y enviará correos electrónicos cuando detecte datos enviados.
 ## Funciones
 send_email(me, you, data): Envía un correo electrónico con los datos recopilados de la campaña GoPhish.
 ## Advertencia
